@@ -675,9 +675,10 @@ img {
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #F5F4FA;
 }
 
-.our-team {
+.team__our-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -687,19 +688,31 @@ img {
     margin-bottom: 50px;
     text-align: center;
 }
-.member-list {
+.card {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.card__member-item {
+    background-color: #ffffff;
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    list-style-type: none;
+}
 
-.member-group{
+.card__member-item:last-child {
+    margin-right: 0;
+   
+}
+
+.card__member-group{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.member-title {
+.card__member-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -709,7 +722,7 @@ img {
     margin-bottom: 10px;
     text-align: center;
 }
-.member-position {
+.card__member-position {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;    
@@ -722,11 +735,11 @@ img {
     justify-content: center;
     align-items: center;  
 }
-.socials-item:not(:last-child) {
+.socials__socials-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.socials-link {
+.socials__socials-link {
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -740,29 +753,18 @@ img {
      background-color var(--slow-anim) var(--fost-anim) ;
 }
 
-.socials-icons {
+.socials__socials-icons {
     fill: #AFB1B8;
 } 
-.socials-link:hover .socials-icons,
-.socials-link:focus .socials-icons {
+.socials__socials-link:hover .socials__socials-icons,
+.socials__socials-link:focus .socials__socials-icons {
     fill: #FFFFFF;
 }
-.socials-link:hover,
-.socials-link:focus {
+.socials__socials-link:hover,
+.socials__socials-link:focus {
     background-color:var(--brend-color);
 }
-.team {
-    background-color: #F5F4FA;
-}
-.member-item {
-    background-color: #ffffff; 
-    margin-right: 30px; 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-.member-item:last-child {
-    margin-right: 0;
-}
+
 /* Постоянные клиенты */
 
 .clients {
@@ -770,15 +772,8 @@ img {
     padding-bottom: 94px;
     margin: 0;
 }
-.list-permanent-clients {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-   
-}
-.permanent-clients {
+
+.clients__permanent-clients {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -789,7 +784,19 @@ img {
     margin-bottom: 50px;
     transition: border var(--slow-anim), var(--fost-anim);
 }
-.permanent-clients-icons {
+.scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.scroll__going-permanent-clients:not(:last-child) {
+    margin-right: 30px;
+    list-style-type: none;
+}
+.scroll__permanent-clients-icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -801,23 +808,18 @@ img {
      border-color var(--slow-anim) var(--fost-anim);
     
 }
-/* .going-permanent-clients {
-    margin-right: 30px;
-} */
-.going-permanent-clients:not(:last-child) {
-    margin-right: 30px;
-}
-.photo-icons {
+
+.scroll__photo-icons {
     display: flex;
     align-items: center;
     fill: #AFB1B8;
 }
-.permanent-clients-icons:hover,
-.peculiarities-icons:focus {
+.scroll__permanent-clients-icons:hover,
+.scroll__peculiarities-icons:focus {
     border: 1px solid var(--brend-color)
 }
-.permanent-clients-icons:hover .photo-icons,
-.permanent-clients-icons:focus .photo-icons {
+.scroll__permanent-clients-icons:hover .scroll__photo-icons,
+.scroll__permanent-clients-icons:focus .scroll__photo-icons {
     fill: var(--brend-color);
 }
 /*подвал*/
@@ -833,9 +835,8 @@ img {
     flex-direction: row;
 }
 .logo-footer-group {
-    /* padding: 0; */
+    padding: 0;
     margin-right: 70px;
-    padding-right: 15px;
 }
 .link-footer {
     padding-top: 0;

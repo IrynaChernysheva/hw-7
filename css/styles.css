@@ -540,8 +540,14 @@ img {
     background-color: #1976d2;
 }
 /* Особенности */
+.peculiarities {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
-.list-peculiarities {
+.peculiarities__list-peculiarities {
     display: flex;
     flex-wrap: wrap;
     width: 1170px;
@@ -549,14 +555,15 @@ img {
     margin-bottom: 0;
     padding-left: 0;
 }
-.item-peculiarities {
+.peculiarities__item-peculiarities {
     width: 270px;
     margin-right: 30px;
+    list-style-type: none;
 }
-.item-peculiarities:last-child {
+.peculiarities__item-peculiarities:last-child {
     margin-right: 0;
 }
-.peculiarities-icons{
+.peculiarities__peculiarities-icons{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -566,16 +573,43 @@ img {
     margin-bottom: 30px;
 }
 
-.detali-icons {
+.peculiarities__peculiarities__detali-icons {
     display: flex;
     align-items: center;
     fill: #212121;
 }
 
-.attention-to-detail, 
-.punctuality,
-.planning,
-.modern-technologies{
+.peculiarities__attention-to-detail {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+.peculiarities__punctuality {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+.peculiarities__planning {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+.peculiarities__modern-technologies{
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -585,27 +619,23 @@ img {
     margin-bottom: 10px;
 }
 
-.link-description {
+.peculiarities__link-description {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);   
     margin-bottom: 0px;
     
 }
-.peculiarities {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
+
+
+/*чем мы занимаемся*/
 .what-are-we-doing-pading {
     display: flex;
     flex-wrap: wrap;
     padding-top: 0;
     padding-bottom: 94px;
 }
-
-/*чем мы занимаемся*/
 
 .what-are-we-doing {
     font-weight: 700;

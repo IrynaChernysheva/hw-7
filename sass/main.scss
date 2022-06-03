@@ -1,6 +1,10 @@
 @import "./utils/vars";
 @import "./utils/visualle-hidden";
 
+@import "./base/common";
+@import "./base/contanier";
+@import "./base/reset";
+
 @import "./components/button";
 @import "./components/socials";
 

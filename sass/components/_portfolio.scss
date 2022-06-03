@@ -40,12 +40,13 @@
 .sending {
     text-decoration: none;
 
-    &:hover .product-action,
-    &:focus .product-action {
-        opacity: 1;
-        transform: translateY(0);
-    }
+   
 }
+.sending:hover .product-action,
+.sending:focus .product-action {
+     opacity: 1;
+     transform: translateY(0);
+ }
 
 .portfolio-group {
     padding-left: 22px;

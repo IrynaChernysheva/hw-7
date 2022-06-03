@@ -5,18 +5,19 @@
 @import "./base/contanier";
 @import "./base/reset";
 
-@import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/modal-window";
-@import "./layouts/modal-form";
-@import "./layouts/peculiarities";
-@import "./layouts/what-are-we-doing";
-@import "./layouts/team";
-@import "./layouts/clients";
-@import "./layouts/portfolio";
-@import "./layouts/footer";
 
-@import "./components/button";
-@import "./components/socials";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/modal-window";
+@import "./components/modal-form";
+@import "./components/peculiarities";
+@import "./components/what-are-we-doing";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/portfolio";
+
+@import "./layouts/socials";
+@import "./layouts/button";
 
 

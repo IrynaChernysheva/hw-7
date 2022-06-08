@@ -121,7 +121,7 @@
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    transition: color var(--slow-anim), var(--fost-anim);
+    transition: color var(--slow-anim) var(--fost-anim);
 
     &:hover,
     &:focus {

@@ -943,8 +943,8 @@ img {
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  -webkit-transition: color var(--slow-anim), var(--fost-anim);
-  transition: color var(--slow-anim), var(--fost-anim);
+  -webkit-transition: color var(--slow-anim) var(--fost-anim);
+  transition: color var(--slow-anim) var(--fost-anim);
 }
 
 .socials-link-footer:hover, .socials-link-footer:focus {
@@ -975,8 +975,8 @@ img {
   color: #212121;
   padding-top: 0;
   margin-bottom: 50px;
-  -webkit-transition: border var(--slow-anim), var(--fost-anim);
-  transition: border var(--slow-anim), var(--fost-anim);
+  -webkit-transition: border var(--slow-anim) var(--fost-anim);
+  transition: border var(--slow-anim) var(--fost-anim);
 }
 
 .scroll {
@@ -1096,8 +1096,8 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff99;
   text-decoration: none;
-  -webkit-transition: color var(--slow-anim), var(--fost-anim);
-  transition: color var(--slow-anim), var(--fost-anim);
+  -webkit-transition: color var(--slow-anim) var(--fost-anim);
+  transition: color var(--slow-anim) var(--fost-anim);
 }
 
 .group-mailto-footer:hover, .group-mailto-footer:focus {
@@ -1111,8 +1111,8 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff99;
   text-decoration: none;
-  -webkit-transition: color var(--slow-anim), var(--fost-anim);
-  transition: color var(--slow-anim), var(--fost-anim);
+  -webkit-transition: color var(--slow-anim) var(--fost-anim);
+  transition: color var(--slow-anim) var(--fost-anim);
 }
 
 .group-tel-footer:hover, .group-tel-footer:focus {
@@ -1173,8 +1173,8 @@ img {
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  -webkit-transition: color var(--slow-anim), var(--fost-anim);
-  transition: color var(--slow-anim), var(--fost-anim);
+  -webkit-transition: color var(--slow-anim) var(--fost-anim);
+  transition: color var(--slow-anim) var(--fost-anim);
 }
 
 .socials-link-footer:hover, .socials-link-footer:focus {
